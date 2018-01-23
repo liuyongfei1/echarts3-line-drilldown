@@ -1,0 +1,23 @@
+{
+  "ecmaVersion": 6,
+  "libs": [],
+  "loadEagerly": [
+    "**/*.js"
+  ],
+  "plugins": {
+    "node": {},
+    "node-express": {}
+  }
+}
+{
+  "ecmaVersion": 6,
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "app/**/*.js"
+  ],
+  "plugins": {
+    "node-express": {}
+  }
+}
